@@ -17,7 +17,7 @@ client.on('messageDelete', msg => {
 });
 
 client.on('message', msg => {
-    if (msg.content == 'I love WDS') {
+    if (msg.content == 'I love Scorpius IT') {
         msg.react('❤️');
     }
 
