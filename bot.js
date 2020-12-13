@@ -20,6 +20,10 @@ client.on('message', msg => {
     if (msg.content == 'I love WDS') {
         msg.react('❤️');
     }
+
+    if (msg.content == 'hello') {
+        msg.channel.send("Not tagged");
+    }
     
     if (msg.content === `${BOT_PREFIX}${MOD_ME_COMMAND}`) {
         modUser(msg.member);
